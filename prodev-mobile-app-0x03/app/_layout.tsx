@@ -1,11 +1,7 @@
 import { Stack } from "expo-router";
-
+// prettier-ignore
 export default function RootLayout() {
-  return (
-    // prettier-ignore
-    <Stack screenOptions={{
-        headerShown: false,
-      }}
-    />
-  );
+  return <Stack screenOptions={{
+    headerShown: false
+  }} />;
 }
